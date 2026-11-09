@@ -1,7 +1,7 @@
 {
-  "title": "Statistical Power of Backtest Validation Pipelines: Planted-Signal Controls Against False Negatives — code, dated campaign outputs and paper (draft v1)",
+  "title": "Statistical Power of Backtest Validation Pipelines: Planted-Signal Controls Against False Negatives — code, dated campaign outputs and paper (preprint, version 1.0)",
   "upload_type": "software",
-  "description": "Companion repository for the paper <em>Statistical Power of Backtest Validation Pipelines: Planted-Signal Controls Against False Negatives</em> (Hugo Marotin, November 2026, draft v1). Folder <code>paper1-backtest-power</code> contains the evaluation pipeline under test (triple-barrier labels, fixed-cadence calendar, greedy scheduler, AIMD sizing, two-phase proprietary-trading-firm rules with ruin and censoring), the planted-signal positive-control module and its proof suites, the campaign drivers, every dated output file (meta.json, cellules.json, points.csv), the non-financial replication on 117,429 hotel bookings, the scripts that regenerate every table and figure, the pre-registered grids, and the LaTeX source and PDF of the paper. The NASDAQ data come from a proprietary feed and are not redistributed; the hotel dataset is public and fetched by script with SHA-256 verification.",
+  "description": "Companion repository for the paper <em>Statistical Power of Backtest Validation Pipelines: Planted-Signal Controls Against False Negatives</em> (Hugo Marotin, preprint, November 2026, version 1.0). Folder <code>paper1-backtest-power</code> contains the evaluation pipeline under test (triple-barrier labels, fixed-cadence calendar, greedy scheduler, AIMD sizing, two-phase proprietary-trading-firm rules with ruin and censoring), the planted-signal positive-control module and its proof suites, the campaign drivers, every dated output file (meta.json, cellules.json, points.csv), the non-financial replication on 117,429 hotel bookings, the scripts that regenerate every table and figure, the pre-registered grids, and the LaTeX source and PDF of the paper. The NASDAQ data come from a proprietary feed and are not redistributed; the hotel dataset is public and fetched by script with SHA-256 verification.",
   "creators": [
     {
       "name": "Marotin, Hugo",
@@ -22,6 +22,6 @@
     "proprietary trading firm evaluation"
   ],
   "language": "eng",
-  "version": "v1-draft",
+  "version": "1.0.0",
   "access_right": "open"
 }

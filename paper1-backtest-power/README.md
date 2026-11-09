@@ -3,7 +3,7 @@
 Folder `paper1-backtest-power` of the `ml-papers` repository. Run every command below from this folder.
 
 Companion code for *Statistical Power of Backtest Validation Pipelines: Planted-Signal
-Controls Against False Negatives* (Hugo Marotin, November 2026, draft v1).
+Controls Against False Negatives* (Hugo Marotin, preprint, November 2026, version 1.0).
 
 Everything the paper reports is read from a dated output file in `campagnes/paper1/sorties/`,
 produced by the code in this repository. The tables and figures of the paper are regenerated

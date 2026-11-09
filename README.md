@@ -5,7 +5,7 @@ the LaTeX sources that produce every number, table and figure. One folder per pa
 
 | Folder | Paper | Status |
 |---|---|---|
-| [`paper1-backtest-power/`](paper1-backtest-power/) | *Statistical Power of Backtest Validation Pipelines: Planted-Signal Controls Against False Negatives* (H. Marotin, 2026) | draft v1, November 2026 |
+| [`paper1-backtest-power/`](paper1-backtest-power/) | *Statistical Power of Backtest Validation Pipelines: Planted-Signal Controls Against False Negatives* (H. Marotin, 2026) | preprint v1.0, November 2026 |
 
 Code is released under the MIT licence (`LICENSE`); papers and figures under CC BY 4.0.
 Datasets are not redistributed: each paper folder says where they come from and how to rebuild

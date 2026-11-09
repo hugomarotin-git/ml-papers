@@ -87,4 +87,4 @@ redistributed (proprietary feed). `data/hors_finance/hotels.csv` is downloaded b
 3. `pip install -r depot_public/requirements.txt`; run the fifteen proof suites; run
    `python campagnes/paper1/tables.py` and check the four tables are byte-identical.
 4. Decide the licence lines in the README (MIT + CC BY 4.0 proposed).
-5. Tag `v1-draft`; the Zenodo DOI (J7) points at that tag.
+5. Tag `v1.0.0`; the Zenodo DOI (J7) points at that tag.
