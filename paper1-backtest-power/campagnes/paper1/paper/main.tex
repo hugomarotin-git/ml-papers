@@ -10,7 +10,7 @@
 \newcommand{\Pf}{\hat{P}}
 
 \title{Statistical Power of Backtest Validation Pipelines:\\Planted-Signal Controls Against False Negatives}
-\author{Hugo Marotin\thanks{Independent researcher, ORCID \href{https://orcid.org/0009-0000-7973-571X}{0009-0000-7973-571X}. Code and dated campaign outputs: \url{https://github.com/hugomarotin-git/ml-papers} (folder \texttt{paper1-backtest-power}). Contact: \texttt{hugomarotin@gmail.com}.}}
+\author{Hugo Marotin\thanks{Independent researcher, ORCID \href{https://orcid.org/0009-0000-7973-571X}{0009-0000-7973-571X}. Code and dated campaign outputs: \url{https://github.com/hugomarotin-git/ml-papers} (folder \texttt{paper1-backtest-power}), archived at \href{https://doi.org/10.5281/zenodo.24093891}{doi:10.5281/zenodo.24093891}. Contact: \texttt{hugomarotin@gmail.com}.}}
 \date{Preprint, November 2026 --- version 1.0}
 
 \begin{document}
@@ -244,7 +244,7 @@ A validation pipeline is a measuring instrument, and an instrument has a sensiti
 The practical recommendation is short. A pipeline that reports ``no signal'' should report, next to it, the smallest planted signal it would have detected in the same cell, the censoring rate of its null, and the noise of its bar. Without these three numbers a NO-GO is indistinguishable from a pipeline that could not have said GO.
 
 \paragraph{Reproducibility.}
-The code of the pipeline, the positive-control module and its proof suite, the campaign drivers, every dated output file (\texttt{points.csv}, \texttt{meta.json} with grid and commit hash) and the scripts that generate every table and figure of this paper from those files are released at \url{https://github.com/hugomarotin-git/ml-papers}, folder \texttt{paper1-backtest-power}. The hotel dataset is public \citep{antonio2019}.
+The code of the pipeline, the positive-control module and its proof suite, the campaign drivers, every dated output file (\texttt{points.csv}, \texttt{meta.json} with grid and commit hash) and the scripts that generate every table and figure of this paper from those files are released at \url{https://github.com/hugomarotin-git/ml-papers}, folder \texttt{paper1-backtest-power}, and archived on Zenodo (\href{https://doi.org/10.5281/zenodo.24093891}{doi:10.5281/zenodo.24093891}). The hotel dataset is public \citep{antonio2019}.
 
 \bibliographystyle{plainnat}
 \bibliography{references}

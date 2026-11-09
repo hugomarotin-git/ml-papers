@@ -1,5 +1,7 @@
 # Statistical Power of Backtest Validation Pipelines — code, outputs and paper
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24093891.svg)](https://doi.org/10.5281/zenodo.24093891)
+
 Folder `paper1-backtest-power` of the `ml-papers` repository. Run every command below from this folder.
 
 Companion code for *Statistical Power of Backtest Validation Pipelines: Planted-Signal
@@ -127,5 +129,5 @@ edited for publication; no executable line was changed.
 
 ## Licence and citation
 
-Code: MIT. Paper and figures: CC BY 4.0. Please cite the paper (reference to be added once
-deposited).
+Code: MIT. Paper and figures: CC BY 4.0. Please cite the paper and, for the code and outputs, the Zenodo archive
+doi:10.5281/zenodo.24093891 (concept DOI, resolves to the latest version).
