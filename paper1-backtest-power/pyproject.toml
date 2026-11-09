@@ -1,7 +1,7 @@
 [project]
-name = "machinelearning"
+name = "paper1-backtest-power"
 version = "0.1.0"
-description = "ML propfirm NASDAQ — voir CADRAGE.md"
+description = "Companion code for: Statistical Power of Backtest Validation Pipelines (Marotin, 2026)"
 requires-python = ">=3.14"
 
 # ──────────────────────────────────────────────────────────────────────────
