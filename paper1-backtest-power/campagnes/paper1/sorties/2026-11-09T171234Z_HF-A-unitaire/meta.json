@@ -1,0 +1,34 @@
+{
+ "tag": "HF-A-unitaire",
+ "horodatage_utc": "2026-11-09T171234Z",
+ "commit": "be59b9a",
+ "flux": "data/hors_finance/hotels.csv",
+ "n_reservations": 117429,
+ "n_utilisable": null,
+ "enjeux_unitaires": true,
+ "grille": {
+  "budgets": [
+   125,
+   250,
+   500
+  ],
+  "risques": [
+   0.005,
+   0.01,
+   0.02
+  ],
+  "edges": [
+   0.52,
+   0.54,
+   0.55,
+   0.56,
+   0.58,
+   0.62,
+   0.7
+  ],
+  "seeds": 60,
+  "seed_offset": 0,
+  "pas": 100
+ },
+ "duree_s": 8.7
+}

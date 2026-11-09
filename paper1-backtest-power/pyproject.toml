@@ -1,0 +1,47 @@
+[project]
+name = "machinelearning"
+version = "0.1.0"
+description = "ML propfirm NASDAQ — voir CADRAGE.md"
+requires-python = ">=3.14"
+
+# ──────────────────────────────────────────────────────────────────────────
+# ruff — formateur + linter
+# ──────────────────────────────────────────────────────────────────────────
+[tool.ruff]
+line-length = 100          # la longueur de ligne utilisée dans tout le projet
+exclude = [".venv", "data", "notebooks"]
+
+[tool.ruff.lint]
+select = [
+    "E",    # erreurs de style pycodestyle
+    "F",    # pyflakes — noms non définis, imports inutilisés
+    "I",    # ordre des imports
+    "B",    # bugbear — pièges classiques (mutable par défaut, etc.)
+    "UP",   # tournures obsolètes
+    "SIM",  # simplifications
+    "RUF",  # règles propres à ruff
+]
+ignore = [
+    "E501",  # longueur de ligne : c'est le formateur qui s'en charge
+]
+
+[tool.ruff.lint.per-file-ignores]
+# Les sanity checks sont faits d'assertions : c'est leur raison d'être.
+"**/sanity_check*.py" = ["S101"]
+
+# ──────────────────────────────────────────────────────────────────────────
+# pyright — vérificateur de types
+#
+# C'est le SEUL outil qui aurait détecté l'incident du 2026-08-03 : un appel
+# dont les parenthèses avaient disparu (`args = ap.parse_args`) est du Python
+# parfaitement valide, invisible pour un linter, mais une erreur de type
+# évidente. Il tourne sans exécuter le code.
+# ──────────────────────────────────────────────────────────────────────────
+[tool.pyright]
+include = ["src", "juge"]
+exclude = [".venv", "data", "notebooks"]
+venvPath = "."
+venv = ".venv"
+typeCheckingMode = "standard"
+reportMissingImports = "warning"      # pandas/numpy ne sont pas typés partout
+reportMissingTypeStubs = false

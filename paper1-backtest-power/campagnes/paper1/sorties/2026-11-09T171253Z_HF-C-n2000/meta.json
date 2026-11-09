@@ -1,0 +1,26 @@
+{
+ "tag": "HF-C-n2000",
+ "horodatage_utc": "2026-11-09T171253Z",
+ "commit": "be59b9a",
+ "flux": "data/hors_finance/hotels.csv",
+ "n_reservations": 117429,
+ "n_utilisable": 2000,
+ "enjeux_unitaires": false,
+ "grille": {
+  "budgets": [
+   250
+  ],
+  "risques": [
+   0.01
+  ],
+  "edges": [
+   0.55,
+   0.58,
+   0.62
+  ],
+  "seeds": 60,
+  "seed_offset": 0,
+  "pas": 1
+ },
+ "duree_s": 0.7
+}

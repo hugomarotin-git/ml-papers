@@ -1,0 +1,5 @@
+cadence,risque,edge,n_replications,p50,p95,taux_reussite_median,barre_null_p95,censure_mediane,censure_null_mediane,interpretable,detectable
+1.0,0.02,0.5,60,0.0,1.0,0.5071428571428571,1.0,0.0,0.0,True,False
+1.0,0.02,0.55,60,0.0,1.0,0.5464285714285715,1.0,0.0,0.0,True,False
+1.0,0.02,0.58,60,0.0,1.0,0.5857142857142857,1.0,0.0,0.0,True,False
+1.0,0.02,0.62,60,1.0,1.0,0.6214285714285714,1.0,0.0,0.0,True,False

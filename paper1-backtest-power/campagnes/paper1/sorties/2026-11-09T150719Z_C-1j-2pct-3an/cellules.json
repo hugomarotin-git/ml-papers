@@ -1,0 +1,58 @@
+[
+  {
+    "cadence": 1.0,
+    "risque": 0.02,
+    "duree_s": 329.7,
+    "plus_petit_edge_detectable": 0.58,
+    "points": [
+      {
+        "edge": 0.5,
+        "n_replications": 60,
+        "p50": 0.2125748502994012,
+        "p95": 0.41916167664670656,
+        "taux_reussite_median": 0.5022271714922049,
+        "barre_null_p95": 0.41916167664670656,
+        "censure_mediane": 0.0,
+        "censure_null_mediane": 0.0,
+        "interpretable": true,
+        "detectable": false
+      },
+      {
+        "edge": 0.55,
+        "n_replications": 60,
+        "p50": 0.4161676646706587,
+        "p95": 0.6745508982035926,
+        "taux_reussite_median": 0.5501113585746102,
+        "barre_null_p95": 0.41916167664670656,
+        "censure_mediane": 0.0,
+        "censure_null_mediane": 0.0,
+        "interpretable": true,
+        "detectable": false
+      },
+      {
+        "edge": 0.58,
+        "n_replications": 60,
+        "p50": 0.562874251497006,
+        "p95": 0.8206586826347305,
+        "taux_reussite_median": 0.5801781737193764,
+        "barre_null_p95": 0.41916167664670656,
+        "censure_mediane": 0.0,
+        "censure_null_mediane": 0.0,
+        "interpretable": true,
+        "detectable": true
+      },
+      {
+        "edge": 0.62,
+        "n_replications": 60,
+        "p50": 0.7245508982035929,
+        "p95": 0.928443113772455,
+        "taux_reussite_median": 0.623608017817372,
+        "barre_null_p95": 0.41916167664670656,
+        "censure_mediane": 0.0,
+        "censure_null_mediane": 0.0,
+        "interpretable": true,
+        "detectable": true
+      }
+    ]
+  }
+]

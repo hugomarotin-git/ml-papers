@@ -1,0 +1,5 @@
+budget,risque,edge,n_replications,p50,p95,barre_null_p95,censure_mediane,censure_null_mediane,n_chemins,interpretable,detectable
+250,0.01,0.5,60,0.3225,0.3671,0.3671,0.0,0.0,1000,True,False
+250,0.01,0.55,60,0.5714999999999999,0.6111,0.3671,0.0,0.0,1000,True,True
+250,0.01,0.58,60,0.7035,0.7302,0.3671,0.0,0.0,1000,True,True
+250,0.01,0.62,60,0.822,0.852,0.3671,0.0,0.0,1000,True,True

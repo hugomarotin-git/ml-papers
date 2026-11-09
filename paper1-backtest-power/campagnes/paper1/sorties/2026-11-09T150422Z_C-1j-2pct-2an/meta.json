@@ -1,0 +1,29 @@
+{
+  "tag": "C-1j-2pct-2an",
+  "horodatage_utc": "2026-11-09T150422Z",
+  "commit": "be59b9a",
+  "panel": "data/v2/nas100_h1_pondere.csv",
+  "n_barres": 11426,
+  "n_journees": 500,
+  "n_labels": 8425,
+  "annees": 2.0,
+  "grille": {
+    "cadences": [
+      1.0
+    ],
+    "risques": [
+      0.02
+    ],
+    "edges": [
+      0.55,
+      0.58,
+      0.62
+    ],
+    "seeds": 60,
+    "seed_offset": 0,
+    "seed_calendrier": 0,
+    "pas": 3
+  },
+  "aimd": "centres AIMD de référence sans airbag (G12)",
+  "duree_totale_s": 152.8
+}

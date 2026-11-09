@@ -1,0 +1,7 @@
+# Versions used for every campaign reported in the paper (Python 3.14.4).
+numpy==2.5.1
+pandas==3.0.5
+matplotlib==3.11.2
+# Development only
+ruff
+pyright

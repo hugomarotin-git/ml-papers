@@ -1,0 +1,32 @@
+{
+  "tag": "B1-null-seeds60",
+  "horodatage_utc": "2026-11-09T122734Z",
+  "commit": "be59b9a",
+  "panel": "data/v2/nas100_h1_pondere.csv",
+  "n_barres": 23312,
+  "n_journees": 1020,
+  "n_labels": 17177,
+  "annees": null,
+  "grille": {
+    "cadences": [
+      0.5,
+      1.0,
+      2.0
+    ],
+    "risques": [
+      0.005,
+      0.01,
+      0.02
+    ],
+    "edges": [
+      0.55,
+      0.58
+    ],
+    "seeds": 60,
+    "seed_offset": 60,
+    "seed_calendrier": 0,
+    "pas": 3
+  },
+  "aimd": "centres AIMD de référence sans airbag (G12)",
+  "duree_totale_s": 1261.4
+}

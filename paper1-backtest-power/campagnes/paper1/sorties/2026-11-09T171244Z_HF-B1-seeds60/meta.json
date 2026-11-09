@@ -1,0 +1,29 @@
+{
+ "tag": "HF-B1-seeds60",
+ "horodatage_utc": "2026-11-09T171244Z",
+ "commit": "be59b9a",
+ "flux": "data/hors_finance/hotels.csv",
+ "n_reservations": 117429,
+ "n_utilisable": null,
+ "enjeux_unitaires": false,
+ "grille": {
+  "budgets": [
+   125,
+   250,
+   500
+  ],
+  "risques": [
+   0.005,
+   0.01,
+   0.02
+  ],
+  "edges": [
+   0.55,
+   0.58
+  ],
+  "seeds": 60,
+  "seed_offset": 60,
+  "pas": 100
+ },
+ "duree_s": 3.3
+}

@@ -1,0 +1,10 @@
+data
+data/
+.venv/
+__pycache__/
+*.pyc
+*.log
+*.blg
+*.aux
+*.out
+.DS_Store

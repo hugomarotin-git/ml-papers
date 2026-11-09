@@ -1,0 +1,58 @@
+[
+ {
+  "budget": 250,
+  "risque": 0.01,
+  "edge": 0.5,
+  "n_replications": 60,
+  "p50": 0.29415584415584417,
+  "p95": 0.463051948051948,
+  "barre_null_p95": 0.463051948051948,
+  "censure_mediane": 0.0,
+  "censure_null_mediane": 0.0,
+  "n_chemins": 770,
+  "interpretable": true,
+  "detectable": false
+ },
+ {
+  "budget": 250,
+  "risque": 0.01,
+  "edge": 0.55,
+  "n_replications": 60,
+  "p50": 0.5240259740259741,
+  "p95": 0.7524025974025974,
+  "barre_null_p95": 0.463051948051948,
+  "censure_mediane": 0.0,
+  "censure_null_mediane": 0.0,
+  "n_chemins": 770,
+  "interpretable": true,
+  "detectable": true
+ },
+ {
+  "budget": 250,
+  "risque": 0.01,
+  "edge": 0.58,
+  "n_replications": 60,
+  "p50": 0.6435064935064936,
+  "p95": 0.850909090909091,
+  "barre_null_p95": 0.463051948051948,
+  "censure_mediane": 0.0,
+  "censure_null_mediane": 0.0,
+  "n_chemins": 770,
+  "interpretable": true,
+  "detectable": true
+ },
+ {
+  "budget": 250,
+  "risque": 0.01,
+  "edge": 0.62,
+  "n_replications": 60,
+  "p50": 0.8,
+  "p95": 0.9195454545454546,
+  "barre_null_p95": 0.463051948051948,
+  "censure_mediane": 0.0,
+  "censure_null_mediane": 0.0,
+  "n_chemins": 770,
+  "interpretable": true,
+  "detectable": true
+ }
+]
